@@ -1,4 +1,4 @@
-/* Pengaturan dasar */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #222;
     color: white;
@@ -14,7 +13,6 @@ header {
     text-align: center;
 }
 
-/* Menu navigasi */
 nav {
     background-color: #333;
     text-align: center;
@@ -31,13 +29,11 @@ nav a:hover {
     color: #00bcd4;
 }
 
-/* Bagian utama */
 main {
     width: 80%;
     margin: 30px auto;
 }
 
-/* Kotak */
 .box {
     background-color: white;
     padding: 25px;
@@ -54,7 +50,6 @@ main {
     margin: 20px auto;
 }
 
-/* Tombol */
 .button {
     display: inline-block;
     background-color: #00bcd4;
@@ -86,7 +81,6 @@ th {
     color: white;
 }
 
-/* Form */
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -121,4 +115,69 @@ footer {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.foto-profil {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+section h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 576px) {
+    .foto-profil {
+        width: 170px;
+    }
+
+    section h1 {
+        font-size: 28px;
+    }
+}
+
+.foto-profil {
+width: 180px;
+height: 180px;
+max-width: 100%;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin: 0 auto 20px;
+}
+
+/* Ukuran tombol */
+.btn {
+font-size: 15px;
+padding: 10px 20px;
+border-radius: 8px;
+}
+
+/* Pengaturan layar HP */
+@media (max-width: 576px) {
+.foto-profil {
+width: 125px;
+height: 125px;
+margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 }
