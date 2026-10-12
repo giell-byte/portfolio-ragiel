@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 
@@ -10,8 +9,7 @@
 
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,21 +29,34 @@
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#menu"
-                    aria-label="Buka menu navigasi"
-                >
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Buka menu navigasi">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto">
+
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Beranda</a>
+                            <a class="nav-link active" href="index.html">
+                                Beranda
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Tentang Saya</a>
+                            <a class="nav-link" href="about.html">
+                                Tentang Saya
+                            </a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">
+                                Proyek
+                            </a>
+                        </li>
+
+                    </ul>
                 </div>
 
             </div>
@@ -58,8 +69,7 @@
             <img
                 src="profile.jpg"
                 alt="Foto Ragiel Mahendra"
-                class="foto-profil mb-4"
-            >
+                class="foto-profil mb-4">
 
             <h1>Halo, Saya Ragiel Mahendra</h1>
 
@@ -72,15 +82,21 @@
                 Tentang Saya
             </a>
 
+            <a href="project.html" class="btn btn-primary mt-2">
+                Lihat Proyek
+            </a>
+
         </section>
     </main>
 
     <footer class="bg-dark text-white text-center p-3">
-        <p class="mb-0">&copy; 2026 Ragiel Mahendra</p>
+        <p class="mb-0">
+        </p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
 
 </body>
 </html>
-
