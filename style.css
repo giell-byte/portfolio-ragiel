@@ -14,19 +14,19 @@ header {
 }
 
 nav {
-    background-color: #333;
+    background-color: #fffbfb;
     text-align: center;
     padding: 12px;
 }
 
 nav a {
-    color: white;
+    color: rgb(26, 26, 26);
     text-decoration: none;
     margin: 0 15px;
 }
 
 nav a:hover {
-    color: #00bcd4;
+    color: #ffffff;
 }
 
 main {
@@ -52,7 +52,7 @@ main {
 
 .button {
     display: inline-block;
-    background-color: #00bcd4;
+    background-color: #f1f3f4;
     color: white;
     padding: 10px 18px;
     text-decoration: none;
@@ -60,9 +60,10 @@ main {
 }
 
 .button:hover {
-    background-color: #0097a7;
+    background-color: #ffffff;
 }
 
+/* Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -76,7 +77,7 @@ th, td {
 }
 
 th {
-    background-color: #222;
+    background-color: #ffffff;
     color: white;
 }
 
@@ -89,7 +90,7 @@ input, textarea {
 }
 
 button {
-    background-color: #00bcd4;
+    background-color: #000000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -98,7 +99,7 @@ button {
 }
 
 button:hover {
-    background-color: #0097a7;
+    background-color: #e5eaea;
 }
 
 footer {
