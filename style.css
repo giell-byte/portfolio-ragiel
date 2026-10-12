@@ -63,7 +63,6 @@ main {
     background-color: #0097a7;
 }
 
-/* Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -155,14 +154,12 @@ display: block;
 margin: 0 auto 20px;
 }
 
-/* Ukuran tombol */
 .btn {
 font-size: 15px;
 padding: 10px 20px;
 border-radius: 8px;
 }
 
-/* Pengaturan layar HP */
 @media (max-width: 576px) {
 .foto-profil {
 width: 125px;
